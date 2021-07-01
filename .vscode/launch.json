@@ -5,6 +5,7 @@
       "program": "${workspaceFolder}/packages/lib2/dist/index.js",
       "request": "launch",
       "sourceMaps": true,
+      "trace": true,
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
       "preLaunchTask": "npm: build",
