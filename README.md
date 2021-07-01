@@ -12,3 +12,5 @@ Set the following breakpoints:
 - `./packages/lib2/index.ts:4`
 
 Notice that the breakpoint on `./packages/lib2/index.ts:4` will be hit, but the breakpoint on `./packages/lib1/index.ts:2` is skipped.
+
+Video Recording: https://www.youtube.com/watch?v=Bln3lQE36Fw
