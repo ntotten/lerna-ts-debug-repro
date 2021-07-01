@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/packages/lib2/dist/index.js",
+      "request": "launch",
+      "sourceMaps": true,
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "preLaunchTask": "npm: build",
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/packages/lib1/dist/**",
+        "${workspaceFolder}/packages/lib2/dist/**",
+        "!**/node_modules/**"
+      ]
+    }
+  ]
+}
